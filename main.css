@@ -1,5 +1,5 @@
 *{
-    background-color: rgb(32, 34, 34); 
+    background-color: #242324; 
 }
 #google-search-img {
     width: 20%;
@@ -13,24 +13,109 @@ div, #text-area{
 }
 
 #text-area {
-    width: 580px;
-    height: 45px;
-    border-radius: 30px;
+    width: 560px;
+    height: 40px;
+    border-radius: 35px;
     position: absolute;
     margin-top: 215px;
     border:solid grey 0.01px;
     color: azure;
-    font-size: medium;      
+    font-size: medium; 
+    padding-inline: 30px;
+    
 }
+
+#text-area:hover{
+
+    background-color: #3d3b3b;
+}
+#search-icon{
+
+    border: solid;
+    border-color: white;
+}
+
 .flask{
     width: 25px;
     height: 25px;
     margin-top:20px ;
     display: flex;
-    margin-left: 1250px;  
+    margin-left: 1350px;  
     
 }
 .padd_{
      padding-left: 20px;
      padding-right: 10px;
+     
+}
+.button1_{
+
+    color: white;
+    font-size: medium;
+    background-color: #3d3b3b;
+    margin-top: 292px;
+    margin-left: 620px;
+    width: 125px;
+    height: 38px;
+    border-radius: 8px;
+    border:none;
+}
+
+.button2_{
+    
+    color: white;
+    font-size: medium;
+    background-color: #3d3b3b;
+    margin-top: 292px;
+    margin-left: 5px;
+    width: 155px;
+    height: 38px;
+    border-radius: 8px;
+    border:none;
+}
+
+.button2_:hover{
+
+    background-color: black;
+}
+.button1_:hover{
+
+    background-color: black;
+}
+.above-footer{
+
+    background-color: #171717;
+    height:9px;
+    width:97.6%;
+    font-size: me;
+    color: white;
+    padding: 18px;
+    justify-content: left;
+    margin-top: 183px;
+
+}
+.on-footer{
+
+    background-color: #171717;
+    height:9px;
+    width:96%;
+    font-size: medium;
+    color: white;
+    padding: 18px;
+    justify-content: left;
+    margin-top: 1.5px;
+
+}
+
+.on-footer2{
+
+    background-color: #171717;
+    height:9px;
+    width:96%;
+    font-size: medium   ;
+    color: white;
+    padding: 18px;
+    justify-content: right;
+    margin-top: 1.5px;
+
 }
