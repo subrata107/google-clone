@@ -1,0 +1,35 @@
+*{
+    background-color: rgb(32, 34, 34);
+}
+#google-search-img {
+
+    width: 20%;
+    min-height: 9%;
+    position: absolute;
+    margin-top: 28px;
+
+    
+}
+#google-search-img:hover{
+
+     box-shadow: 1px;
+}
+div, #text-area{
+
+    display: flex;
+    justify-content: center;
+}
+
+#text-area {
+
+    width: 580px;
+    height: 40px;
+    border-radius: 30px;
+    position: absolute;
+    margin-top: 255px;
+    border:solid grey 0.01px;
+    color: azure;
+    font-size: medium;
+    
+    
+}
